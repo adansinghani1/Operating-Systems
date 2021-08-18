@@ -1,5 +1,0 @@
-obj-m += simple.o
-all:
-	make -C /lib/modules/$(uname -r)/ build M=/home/kash/Desktop/OS/4320/ modules
-clean:
-	make -C /lib/modules/$(uname -r)/ build M=/home/kash/Desktop/OS/4320/ clean
